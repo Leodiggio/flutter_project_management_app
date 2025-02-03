@@ -1,16 +1,30 @@
-# project_management_app
+# Flutter Project Management App
 
-A Flutter-based project management app with task assignment, user login, and more
+Una semplice app di gestione progetti e task realizzata in Flutter.
 
-## Getting Started
+## Funzionalità Principali (MVP)
 
-This project is a starting point for a Flutter application.
+- [ ] Login utente
+- [ ] Creazione di un progetto
+- [ ] Creazione di un task
+- [ ] Assegnazione di un task a un utente
+- [ ] Visualizzare i task di un progetto
 
-A few resources to get you started if this is your first Flutter project:
+## Struttura Cartelle
+- **lib/models**: contiene i model di dominio (Project, Task, User, ecc.)
+- **lib/screens**: contiene le schermate principali (Login, Home, Project, ecc.)
+- **lib/services**: contiene funzioni di autenticazione, integrazione con API, database, etc.
+- **lib/widgets**: contiene componenti UI riutilizzabili.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Requisiti
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter 3.x (o versione attuale)
+- Dart 2.x
+
+## Come eseguire
+
+1. Clonare il repo: `git clone https://github.com/tuo-username/flutter_project_management_app.git`
+2. Entrare nella cartella del progetto: `cd flutter_project_management_app`
+3. Installare le dipendenze: `flutter pub get`
+4. Eseguire l'app in debug: `flutter run`
+
